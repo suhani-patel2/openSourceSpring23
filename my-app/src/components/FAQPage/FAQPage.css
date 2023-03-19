@@ -52,3 +52,10 @@ u {
 .aText {
   margin: 0;
 }
+
+helpButton {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  color: rgb(215, 87, 69);
+}

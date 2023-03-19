@@ -46,8 +46,27 @@ function FAQPage() {
         </div>
         insert more containers here
       </div>
+      <button onclick="HelpButton">Help</button>
+      <script>
+        function help(){' '}
+        {alert('FAQ page: Answers common questions about our services.')};
+      </script>
     </div>
   );
 }
+
+/*
+function HelpButton() {
+  const helpButton = document.createElement("button");
+  helpButton.innerHTML = "Help";
+  helpButton.onclick = function() {
+    alert("FAQ page: Answer common questions about our services.");
+  };
+  document.body.appendChild(helpButton);
+}
+  <div id= "helpButton">
+        <HelpButton />
+      </div>
+*/
 
 export default FAQPage;
